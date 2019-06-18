@@ -37,6 +37,9 @@ export default ({ children, title }) => (
       <Link href="/hireme">
         <a>Hire Me</a>
       </Link>
+      <Link href="/blog">
+        <a>My Blog</a>
+      </Link>
     </header>
     {/* website title sent from props */}
     <h1>{title}</h1>
