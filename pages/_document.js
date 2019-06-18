@@ -17,7 +17,7 @@ export default class MyDocument extends Document {
           />
           <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto"
+            href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Roboto+Mono:400,700"
           />
         </Head>
         <body>
@@ -26,7 +26,7 @@ export default class MyDocument extends Document {
         </body>
         <style jsx>{`
           body {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Lato', 'Roboto', sans-serif;
           }
         `}</style>
       </html>
